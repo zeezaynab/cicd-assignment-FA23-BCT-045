@@ -21,7 +21,7 @@ def driver():
 
 def test_title(driver):
     driver.get(URL)
-    assert "CI/CD Assignment" in driver.title
+    assert "WRONG TITLE" in driver.title
 
 
 def test_heading(driver):
