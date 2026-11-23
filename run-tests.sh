@@ -1,0 +1,1 @@
+MSYS_NO_PATHCONV=1 docker run --rm --network cicd-net -e BASE_URL=http://webapp -v "$(pwd -W)/shots:/tests/shots" test-agent

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CI/CD Assignment - Your Name</title>
+</head>
+<body>
+  <h1 id="heading">Your Name - FA23-BCT-045</h1>
+  <input id="textbox" type="text" placeholder="Type here">
+  <button id="submit-btn">Submit</button>
+  <p id="output"></p>
+
+  <script>
+    document.getElementById('submit-btn').addEventListener('click', function () {
+      var text = document.getElementById('textbox').value;
+      document.getElementById('output').textContent = 'You entered: ' + text;
+    });
+  </script>
+</body>
+</html>
